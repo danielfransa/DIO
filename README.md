@@ -24,6 +24,11 @@
    - **Linux Experience**
       - 1º Primeiro desafio foi criação de Repositório no GIT <https://github.com/danielfransa/DIO> 
 
-      - 2º DEsagio Script Criação Usuário: 
+      - 2º Desafio Script Criação Usuário: <https://github.com/danielfransa/DIO/tree/master/Linux_Experience/BootcampLinux>
+
+      - 3º Desafio Script criação de servidor WEB Apache: <https://github.com/danielfransa/DIO/tree/master/Linux_Experience/desafio2linux>
+
+      - 4º Desafio Docker <>
+
 
 
