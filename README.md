@@ -19,6 +19,6 @@
 
       - 6º Desafio Java Padrão de projetos Spring <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-Padrao-de-Projetos-Java>
 
-      - 7º Desafio Desemvolvimento de testes Unitarios <>
+      - 7º Desafio Desemvolvimento de testes Unitarios <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-API-Rest-Beer>
 
 
