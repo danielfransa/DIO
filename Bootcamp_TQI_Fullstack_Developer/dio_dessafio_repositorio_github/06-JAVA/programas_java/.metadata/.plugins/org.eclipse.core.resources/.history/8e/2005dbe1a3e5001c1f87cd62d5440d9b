@@ -1,0 +1,22 @@
+package br.dio.java;
+
+public class aula2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	byte b1 = 10;
+	byte b2 = 20;
+	
+	short a1 = 20000;
+	short a2 = 40000;
+	
+	int i1 = 10000000000;
+	int i2 = 28500;
+	
+	long l1 = 1000000000000000000L;
+	long l2 = 2804865686580005608L;
+
+	}
+
+}
