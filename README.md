@@ -19,6 +19,11 @@
 
       - 6º Desafio Java Padrão de projetos Spring <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-Padrao-de-Projetos-Java>
 
-      - 7º Desafio Desemvolvimento de testes Unitarios <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-API-Rest-Beer>
+      - 7º Desafio Desenvolvimento de testes Unitários <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-API-Rest-Beer>
+
+   - **Linux Experience**
+      - 1º Primeiro desafio foi criação de Repositório no GIT <https://github.com/danielfransa/DIO> 
+
+      - 2º DEsagio Script Criação Usuário: 
 
 
