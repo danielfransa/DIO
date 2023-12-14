@@ -15,4 +15,8 @@
 
       - 4º Desafio React <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Projeto-React-UserGithub>
 
+      - 5º Desafio Java P.O.O. <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio_JAVA_DIO>
+
+      - 6º 
+
 
