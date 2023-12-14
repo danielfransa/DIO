@@ -17,6 +17,8 @@
 
       - 5º Desafio Java P.O.O. <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio_JAVA_DIO>
 
-      - 6º 
+      - 6º Desafio Java Padrão de projetos Spring <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-Padrao-de-Projetos-Java>
+
+      - 7º Desafio Desemvolvimento de testes Unitarios <>
 
 
