@@ -66,9 +66,13 @@
 
      - 3º Desafio IMC Dart: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/desafio_dio_imc_dart>
 
-     - 4º Desafio IMC Flutter: <> 
+     - 4º Desafio IMC Flutter: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/imc_flutter> 
 
-     - 5º Desafio Persistindo Dados IMC Flutter: <>
+     - 5º Desafio Persistindo Dados IMC Flutter: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/imc_flutter>
+
+     - 6º Desafio Consumo API Via CEP: <>
+
+     - 7º Desafio Lista Contato: <>
 
 
 
