@@ -46,7 +46,12 @@
    - **Kotlin Experience**
      - 1º Primeiro desafio foi criação de Repositório no GIT: <https://github.com/danielfransa/DIO> 
      
-     - 2º P.O.O. com Kotlin: <>
+     - 2º P.O.O. com Kotlin: <https://github.com/danielfransa/DIO/tree/master/Kotlin_Experience/Desafio-DIO-Usando-Orientacao-a-Objetos-com-Kotlin>
+
+   - **Banco PAN Java Developer**
+     - 1º Primeiro desafio foi criação de Repositório no GIT: <https://github.com/danielfransa/DIO>
+
+     - 2º Abstração de um Bootcamp, POO com Java: <>
 
 
 
