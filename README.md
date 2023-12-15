@@ -6,7 +6,7 @@
 
   Se você cegou nesse repositório pelo site da DIO abaixo tem um index dos desafios realizados:
 
-   - **Bootcamp TQI Fullstack Developer**
+   - **TQI Fullstack Developer**
       - 1º Desafio Criação de um repositório GIT: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/dio_dessafio_repositorio_github>
 
       - 2º Desafio CSS Menu Hamburger: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/projeto-HTML-CSS>
@@ -37,7 +37,11 @@
 
       - 3º Desafio Hospedagem: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Pottencial_.NET_Developer/Desafio-Hospedagem>
 
-      - 4º Desafio Celular: <>
+      - 4º Desafio Celular: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Pottencial_.NET_Developer/Desafio-Celular>
+
+      - 5º Sistema de Agendamento API com Swagger: <>
+
+      - 6º Payment API: <>
 
 
 
