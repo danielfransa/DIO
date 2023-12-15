@@ -51,7 +51,9 @@
    - **Banco PAN Java Developer**
      - 1º Primeiro desafio foi criação de Repositório no GIT: <https://github.com/danielfransa/DIO>
 
-     - 2º Abstração de um Bootcamp, POO com Java: <>
+     - 2º Abstração de um Bootcamp, POO com Java: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Banco_PAN_Java_Developer/desafio-DIO-POO>
+
+     - 3º Boas práticas com DynamoDB: <>
 
 
 
