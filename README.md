@@ -39,9 +39,14 @@
 
       - 4º Desafio Celular: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Pottencial_.NET_Developer/Desafio-Celular>
 
-      - 5º Sistema de Agendamento API com Swagger: <>
+      - 5º Sistema de Agendamento API com Swagger: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Pottencial_.NET_Developer/Desafio-API_DOT_NET>
 
-      - 6º Payment API: <>
+      - 6º Payment API (Essa esta no GitLab): <https://gitlab.com/danielfransa/tech-test-payment-api.git>
+
+   - **Kotlin Experience**
+     - 1º Primeiro desafio foi criação de Repositório no GIT: <https://github.com/danielfransa/DIO> 
+     
+     - 2º P.O.O. com Kotlin: <>
 
 
 
