@@ -1,0 +1,15 @@
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\bin\Debug\net6.0\DesafioPOO.exe
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\bin\Debug\net6.0\DesafioPOO.deps.json
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\bin\Debug\net6.0\DesafioPOO.runtimeconfig.json
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\bin\Debug\net6.0\DesafioPOO.dll
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\bin\Debug\net6.0\DesafioPOO.pdb
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.csproj.AssemblyReference.cache
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.AssemblyInfoInputs.cache
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.AssemblyInfo.cs
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.csproj.CoreCompileInputs.cache
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.dll
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\refint\DesafioPOO.dll
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.pdb
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\DesafioPOO.genruntimeconfig.cache
+D:\workspace\bootcampPotencial\Orientação a Objetos com C#\trilha-net-poo-desafio-main\obj\Debug\net6.0\ref\DesafioPOO.dll
