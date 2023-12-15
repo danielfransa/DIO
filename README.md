@@ -53,7 +53,11 @@
 
      - 2º Abstração de um Bootcamp, POO com Java: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Banco_PAN_Java_Developer/desafio-DIO-POO>
 
-     - 3º Boas práticas com DynamoDB: <>
+     - 3º Boas práticas com DynamoDB: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Banco_PAN_Java_Developer/Dio-DesafioDynamoDB>
+
+     - 4º Desafio  Spring Data JPA: <>
+
+     - 5º Desafio Padrão de Projeto: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/Desafio-DIO-Padrao-de-Projetos-Java>
 
 
 
