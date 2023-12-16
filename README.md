@@ -70,9 +70,9 @@
 
      - 5º Desafio Persistindo Dados IMC Flutter: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/imc_flutter>
 
-     - 6º Desafio Consumo API Via CEP: <>
+     - 6º Desafio Consumo API Via CEP: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/Desafio_DIO_ViaCep_Back4App>
 
-     - 7º Desafio Lista Contato: <>
+     - 7º Desafio Lista Contato: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/Desafio_DIO_ViaCep_Back4App>
 
 
 
