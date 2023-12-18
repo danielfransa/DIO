@@ -81,7 +81,9 @@
 
      - 3º Desafio Potência: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/C%C3%A1lculo_Pot%C3%AAncia>
 
-     - 4º Dasafio CPF: <>
+     - 4º Dasafio CPF: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Consulta_CPF>
+
+     - 5º Dinâmica de mercado: <>
 
     
 
