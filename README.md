@@ -85,7 +85,9 @@
 
      - 5º Dinâmica de mercado: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Mercado>
 
-     - 6º Blog Rails: <>
+     - 6º Blog Rails: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/blog>
+
+     - 7º Desagio Regex: <>
 
     
 
