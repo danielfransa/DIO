@@ -77,7 +77,11 @@
    - **Formação Ruby Developer**
      - 1º Projeto Ruby <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Primeiro_projeto_Ruby>
 
-     - 2º Projeto Calculadora <>
+     - 2º Projeto Calculadora <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Calculadora>
+
+     - 3º Desafio Potência <>
+
+    
 
 
 

@@ -1,6 +1,6 @@
 # Formação Ruby Developer
 
-## Criando uma Calculadora3
+## Criando uma Calculadora
 
 ### Descrição
 
