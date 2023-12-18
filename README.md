@@ -75,11 +75,13 @@
      - 7º Desafio Lista Contato: <https://github.com/danielfransa/DIO/tree/master/Santander_Bootcamp_2023-Mobile_com_Flutter/Desafio_DIO_ViaCep_Back4App>
   
    - **Formação Ruby Developer**
-     - 1º Projeto Ruby <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Primeiro_projeto_Ruby>
+     - 1º Projeto Ruby: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Primeiro_projeto_Ruby>
 
-     - 2º Projeto Calculadora <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Calculadora>
+     - 2º Projeto Calculadora: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Calculadora>
 
-     - 3º Desafio Potência <>
+     - 3º Desafio Potência: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/C%C3%A1lculo_Pot%C3%AAncia>
+
+     - 4º Dasafio CPF: <>
 
     
 
