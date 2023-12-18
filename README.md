@@ -87,7 +87,9 @@
 
      - 6º Blog Rails: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/blog>
 
-     - 7º Desagio Regex: <>
+     - 7º Desagio Regex: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Regex>
+
+     - 8º Nokogiri: <>
 
     
 
