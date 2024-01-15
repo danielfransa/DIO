@@ -95,7 +95,7 @@
 
      - 1º Contribuindo em um Projeto Open Source no GitHub: <https://github.com/danielfransa/dio-lab-open-source/tree/feat/community/danielfransa>
 
-     - 2º Construindo uma Pokédex com JavaScript: <>
+     - 2º Construindo uma Pokédex com JavaScript: <https://github.com/danielfransa/DIO/tree/master/Desenvolvimento_Frontend_com_Angular/pokedex>
 
     
 
