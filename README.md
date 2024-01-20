@@ -97,6 +97,8 @@
 
      - 2º Construindo uma Pokédex com JavaScript: <https://github.com/danielfransa/DIO/tree/master/Desenvolvimento_Frontend_com_Angular/pokedex>
 
+     - 3º Criando um Blog com Angular: <>
+
     
 
 
