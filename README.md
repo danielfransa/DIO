@@ -91,13 +91,15 @@
 
      - 8º Nokogiri: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Nokogiri>
 
-     - **Desenvolvimento Frontend com Angular**
+    - **Desenvolvimento Frontend com Angular**
 
      - 1º Contribuindo em um Projeto Open Source no GitHub: <https://github.com/danielfransa/dio-lab-open-source/tree/feat/community/danielfransa>
 
      - 2º Construindo uma Pokédex com JavaScript: <https://github.com/danielfransa/DIO/tree/master/Desenvolvimento_Frontend_com_Angular/pokedex>
 
      - 3º Criando um Blog com Angular: <https://github.com/danielfransa/DIO/tree/master/Desenvolvimento_Frontend_com_Angular/angular-blog>
+
+     - 4º Criando um Clone do BuzzFeed com Angular: <>
 
     
 
