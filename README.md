@@ -99,7 +99,7 @@
 
      - 3º Criando um Blog com Angular: <https://github.com/danielfransa/DIO/tree/master/Desenvolvimento_Frontend_com_Angular/angular-blog>
 
-     - 4º Criando um Clone do BuzzFeed com Angular: <>
+     - 4º Criando um Clone do BuzzFeed com Angular: <https://github.com/danielfransa/DIO/tree/master/Desenvolvimento_Frontend_com_Angular/angular-buzzfeed>
 
     
 
