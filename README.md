@@ -4,7 +4,7 @@
 
   Aqui estarão divididos por pastas todos os desafios que conclui durante meus cursos na plataforma DIO
 
-  Se você cegou nesse repositório pelo site da DIO abaixo tem um index dos desafios realizados:
+  Se você chegou nesse repositório pelo site da DIO abaixo tem um index dos desafios realizados:
 
    - **TQI Fullstack Developer**
       - 1º Desafio Criação de um repositório GIT: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_TQI_Fullstack_Developer/dio_dessafio_repositorio_github>
@@ -91,7 +91,7 @@
 
      - 8º Nokogiri: <https://github.com/danielfransa/DIO/tree/master/Forma%C3%A7%C3%A3o_Ruby_Developer/Nokogiri>
 
-    - **Desenvolvimento Frontend com Angular**
+   - **Desenvolvimento Frontend com Angular**
 
      - 1º Contribuindo em um Projeto Open Source no GitHub: <https://github.com/danielfransa/dio-lab-open-source/tree/feat/community/danielfransa>
 
