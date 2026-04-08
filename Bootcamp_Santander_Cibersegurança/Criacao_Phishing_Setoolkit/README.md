@@ -23,6 +23,6 @@
     ![Sexta-Tela](imagens/Img_06.png)
  - Apos o servidor começa a rodar na porta 80 do nosso endereço IP:
     ![Sétima-Tela](imagens/Img_07.png)
- - Vítima acessa a página fake e tem seus daos capturados:
+ - Vítima acessa a página fake e tem seus dados capturados:
     ![Oitava-Tela](imagens/Img_08.png)
     
