@@ -1,0 +1,1 @@
+Esse é um Texto puro sem criptografia, que será atacado pelo meu encrypter!!!
