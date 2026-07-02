@@ -106,10 +106,9 @@
       - 1º Criação de um Phishing com setoolkit: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Santander_Ciberseguran%C3%A7a/Criacao_Phishing_Setoolkit>
       - 2º Projeto Ransomware com Python: <https://github.com/danielfransa/DIO/tree/master/Bootcamp_Santander_Ciberseguran%C3%A7a/projeto-ransomware>
 
-    - **Formação C/C++ Developer**
+   - **Formação C/C++ Developer**
 
-      - 1º Desafio de projeto - Game com IA: <https://github.com/danielfransa/DIO/tree/master/Formacao_C-C%2B%2B_Developer/desafio_projeto_game>
-
+     - 1º Desafio de projeto - Game com IA: <https://github.com/danielfransa/DIO/tree/master/Formacao_C-C%2B%2B_Developer/desafio_projeto_game>
 
 
 
