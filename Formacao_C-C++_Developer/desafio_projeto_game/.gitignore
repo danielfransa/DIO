@@ -1,0 +1,3 @@
+build/*
+!build/.gitkeep
+jogo_da_velha
