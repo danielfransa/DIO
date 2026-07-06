@@ -110,5 +110,8 @@
 
      - 1º Desafio de projeto - Game com IA: <https://github.com/danielfransa/DIO/tree/master/Formacao_C-C%2B%2B_Developer/desafio_projeto_game>
 
+     - 2º Desafio de projeto - Calculadora de Programação: <https://github.com/danielfransa/DIO/tree/master/Formacao_C-C%2B%2B_Developer/desafio_projeto_calculadora>
+
+
 
 
