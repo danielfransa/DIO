@@ -6,6 +6,7 @@
 
 #define INPUT_SIZE 128
 #define OUTPUT_SIZE 128
+#define DIRECT_TOKENS 5
 
 static void print_usage(const char *program_name)
 {
@@ -49,6 +50,41 @@ static int execute_request(const CalculationRequest *request)
     return EXIT_SUCCESS;
 }
 
+static int try_parse_inline_request(char *line, CalculationRequest *request)
+{
+    char *tokens[DIRECT_TOKENS];
+    char *token = NULL;
+    size_t count = 0;
+
+    token = strtok(line, " \t");
+    while (token != NULL && count < DIRECT_TOKENS) {
+        tokens[count++] = token;
+        token = strtok(NULL, " \t");
+    }
+
+    if (token != NULL || (count != 4 && count != 5)) {
+        return 0;
+    }
+
+    if (parse_base(tokens[0], &request->input_base) != PARSE_OK) {
+        return 0;
+    }
+
+    if (count == 5) {
+        if (parse_base(tokens[4], &request->output_base) != PARSE_OK) {
+            return 0;
+        }
+    } else {
+        request->output_base = request->input_base;
+    }
+
+    request->left_text = tokens[1];
+    request->operation_text = tokens[2];
+    request->right_text = tokens[3];
+
+    return 1;
+}
+
 static int run_direct_mode(int argc, char **argv)
 {
     NumberBase input_base = BASE_DECIMAL;
@@ -81,6 +117,7 @@ static int run_direct_mode(int argc, char **argv)
 static int run_interactive_mode(void)
 {
     char input_base_text[INPUT_SIZE];
+    char inline_input[INPUT_SIZE];
     char output_base_text[INPUT_SIZE];
     char left[INPUT_SIZE];
     char right[INPUT_SIZE];
@@ -92,8 +129,17 @@ static int run_interactive_mode(void)
     printf("Calculadora para Programador\n");
     printf("============================\n\n");
 
-    if (!read_line("Base de entrada (bin/oct/dec/hex): ", input_base_text, sizeof(input_base_text)) ||
-        parse_base(input_base_text, &input_base) != PARSE_OK) {
+    if (!read_line("Base ou expressao (ex: dec 10 + 1 dec): ", input_base_text, sizeof(input_base_text))) {
+        fprintf(stderr, "Erro: entrada incompleta.\n");
+        return EXIT_FAILURE;
+    }
+
+    strcpy(inline_input, input_base_text);
+    if (try_parse_inline_request(inline_input, &request)) {
+        return execute_request(&request);
+    }
+
+    if (parse_base(input_base_text, &input_base) != PARSE_OK) {
         fprintf(stderr, "Erro: %s.\n", app_status_message(APP_INVALID_INPUT_BASE));
         return EXIT_FAILURE;
     }

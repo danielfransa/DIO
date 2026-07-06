@@ -20,6 +20,20 @@ Executar em modo interativo:
 make run
 ```
 
+No primeiro prompt, ha duas opcoes:
+
+```text
+dec 10 + 1 dec
+```
+
+Ou apenas:
+
+```text
+dec
+```
+
+Quando apenas a base e informada, o programa pergunta os valores, a operacao e a base de saida separadamente.
+
 Executar em modo direto:
 
 ```bash

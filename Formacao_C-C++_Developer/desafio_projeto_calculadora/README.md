@@ -28,6 +28,14 @@ Modo interativo:
 make run
 ```
 
+No modo interativo voce pode informar a expressao completa no primeiro prompt:
+
+```text
+dec 10 + 1 dec
+```
+
+Ou informar apenas a base, por exemplo `dec`, e responder os campos seguintes.
+
 Modo direto:
 
 ```bash
