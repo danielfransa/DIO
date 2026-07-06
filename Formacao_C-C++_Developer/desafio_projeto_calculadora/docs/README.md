@@ -8,3 +8,4 @@ Esta pasta documenta a calculadora para programador, incluindo arquitetura, deci
 - [Decisoes tecnicas](decisions.md)
 - [Clean Code e Clean Architecture](clean-code-clean-architecture.md)
 - [Build e execucao](build.md)
+- [Estudos do projeto](estudos/README.md)
