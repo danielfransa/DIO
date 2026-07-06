@@ -26,6 +26,12 @@ No primeiro prompt, ha duas opcoes:
 dec 10 + 1 dec
 ```
 
+Para conversao simples:
+
+```text
+bin 01010110 dec
+```
+
 Ou apenas:
 
 ```text
@@ -37,6 +43,7 @@ Quando apenas a base e informada, o programa pergunta os valores, a operacao e a
 Executar em modo direto:
 
 ```bash
+./bin/programmer_calc bin 01010110 dec
 ./bin/programmer_calc dec 10 + 5 bin
 ```
 

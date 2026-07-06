@@ -73,6 +73,27 @@ AppStatus run_calculation(const CalculationRequest *request, char *output, size_
         APP_OUTPUT_TOO_SMALL);
 }
 
+AppStatus run_conversion(const ConversionRequest *request, char *output, size_t output_size)
+{
+    int64_t value = 0;
+    AppStatus app_status = APP_OK;
+
+    if (request == NULL) {
+        return APP_INVALID_LEFT_VALUE;
+    }
+
+    app_status = map_parse_status(
+        parse_int64_in_base(request->value_text, request->input_base, &value),
+        APP_INVALID_LEFT_VALUE);
+    if (app_status != APP_OK) {
+        return app_status;
+    }
+
+    return map_parse_status(
+        format_int64_in_base(value, request->output_base, output, output_size),
+        APP_OUTPUT_TOO_SMALL);
+}
+
 const char *app_status_message(AppStatus status)
 {
     switch (status) {

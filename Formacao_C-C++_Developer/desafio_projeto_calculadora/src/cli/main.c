@@ -11,10 +11,12 @@
 static void print_usage(const char *program_name)
 {
     printf("Uso direto:\n");
+    printf("  %s <base-entrada> <valor> <base-saida>\n", program_name);
     printf("  %s <base-entrada> <valor-a> <operacao> <valor-b> [base-saida]\n\n", program_name);
     printf("Bases: bin, oct, dec, hex\n");
     printf("Operacoes: +, -, '*', /\n\n");
     printf("Exemplos:\n");
+    printf("  %s bin 01010110 dec\n", program_name);
     printf("  %s bin 1010 + 11 dec\n", program_name);
     printf("  %s hex FF / F bin\n", program_name);
 }
@@ -50,19 +52,41 @@ static int execute_request(const CalculationRequest *request)
     return EXIT_SUCCESS;
 }
 
-static int try_parse_inline_request(char *line, CalculationRequest *request)
+static int execute_conversion(const ConversionRequest *request)
 {
-    char *tokens[DIRECT_TOKENS];
+    char output[OUTPUT_SIZE];
+    AppStatus status = run_conversion(request, output, sizeof(output));
+
+    if (status != APP_OK) {
+        fprintf(stderr, "Erro: %s.\n", app_status_message(status));
+        return EXIT_FAILURE;
+    }
+
+    printf("Resultado (%s): %s\n", base_label(request->output_base), output);
+    return EXIT_SUCCESS;
+}
+
+static size_t split_tokens(char *line, char **tokens, size_t max_tokens)
+{
     char *token = NULL;
     size_t count = 0;
 
     token = strtok(line, " \t");
-    while (token != NULL && count < DIRECT_TOKENS) {
+    while (token != NULL && count < max_tokens) {
         tokens[count++] = token;
         token = strtok(NULL, " \t");
     }
 
-    if (token != NULL || (count != 4 && count != 5)) {
+    if (token != NULL) {
+        return max_tokens + 1;
+    }
+
+    return count;
+}
+
+static int try_parse_inline_calculation(char **tokens, size_t count, CalculationRequest *request)
+{
+    if (count != 4 && count != 5) {
         return 0;
     }
 
@@ -85,15 +109,44 @@ static int try_parse_inline_request(char *line, CalculationRequest *request)
     return 1;
 }
 
+static int try_parse_inline_conversion(char **tokens, size_t count, ConversionRequest *request)
+{
+    if (count != 3) {
+        return 0;
+    }
+
+    if (parse_base(tokens[0], &request->input_base) != PARSE_OK ||
+        parse_base(tokens[2], &request->output_base) != PARSE_OK) {
+        return 0;
+    }
+
+    request->value_text = tokens[1];
+    return 1;
+}
+
 static int run_direct_mode(int argc, char **argv)
 {
     NumberBase input_base = BASE_DECIMAL;
     NumberBase output_base = BASE_DECIMAL;
     CalculationRequest request;
+    ConversionRequest conversion_request;
 
     if (parse_base(argv[1], &input_base) != PARSE_OK) {
         fprintf(stderr, "Erro: %s.\n", app_status_message(APP_INVALID_INPUT_BASE));
         return EXIT_FAILURE;
+    }
+
+    if (argc == 4) {
+        if (parse_base(argv[3], &output_base) != PARSE_OK) {
+            fprintf(stderr, "Erro: %s.\n", app_status_message(APP_INVALID_OUTPUT_BASE));
+            return EXIT_FAILURE;
+        }
+
+        conversion_request.input_base = input_base;
+        conversion_request.output_base = output_base;
+        conversion_request.value_text = argv[2];
+
+        return execute_conversion(&conversion_request);
     }
 
     if (argc == 6) {
@@ -118,6 +171,8 @@ static int run_interactive_mode(void)
 {
     char input_base_text[INPUT_SIZE];
     char inline_input[INPUT_SIZE];
+    char *tokens[DIRECT_TOKENS];
+    size_t token_count = 0;
     char output_base_text[INPUT_SIZE];
     char left[INPUT_SIZE];
     char right[INPUT_SIZE];
@@ -125,6 +180,7 @@ static int run_interactive_mode(void)
     NumberBase input_base = BASE_DECIMAL;
     NumberBase output_base = BASE_DECIMAL;
     CalculationRequest request;
+    ConversionRequest conversion_request;
 
     printf("Calculadora para Programador\n");
     printf("============================\n\n");
@@ -135,7 +191,11 @@ static int run_interactive_mode(void)
     }
 
     strcpy(inline_input, input_base_text);
-    if (try_parse_inline_request(inline_input, &request)) {
+    token_count = split_tokens(inline_input, tokens, DIRECT_TOKENS);
+    if (try_parse_inline_conversion(tokens, token_count, &conversion_request)) {
+        return execute_conversion(&conversion_request);
+    }
+    if (try_parse_inline_calculation(tokens, token_count, &request)) {
         return execute_request(&request);
     }
 
@@ -177,7 +237,7 @@ int main(int argc, char **argv)
         return EXIT_SUCCESS;
     }
 
-    if (argc == 5 || argc == 6) {
+    if (argc == 4 || argc == 5 || argc == 6) {
         return run_direct_mode(argc, argv);
     }
 

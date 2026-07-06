@@ -34,17 +34,25 @@ No modo interativo voce pode informar a expressao completa no primeiro prompt:
 dec 10 + 1 dec
 ```
 
+Para fazer apenas conversao de base, informe:
+
+```text
+bin 01010110 dec
+```
+
 Ou informar apenas a base, por exemplo `dec`, e responder os campos seguintes.
 
 Modo direto:
 
 ```bash
+./bin/programmer_calc <base-entrada> <valor> <base-saida>
 ./bin/programmer_calc <base-entrada> <valor-a> <operacao> <valor-b> [base-saida]
 ```
 
 Exemplos:
 
 ```bash
+./bin/programmer_calc bin 01010110 dec
 ./bin/programmer_calc bin 1010 + 11 dec
 ./bin/programmer_calc hex FF / F bin
 ./bin/programmer_calc oct 17 "*" 2 hex

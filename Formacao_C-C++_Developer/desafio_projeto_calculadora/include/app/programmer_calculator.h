@@ -26,7 +26,14 @@ typedef struct {
     const char *operation_text;
 } CalculationRequest;
 
+typedef struct {
+    NumberBase input_base;
+    NumberBase output_base;
+    const char *value_text;
+} ConversionRequest;
+
 AppStatus run_calculation(const CalculationRequest *request, char *output, size_t output_size);
+AppStatus run_conversion(const ConversionRequest *request, char *output, size_t output_size);
 const char *app_status_message(AppStatus status);
 
 #endif

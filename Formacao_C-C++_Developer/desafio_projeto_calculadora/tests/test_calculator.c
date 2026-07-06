@@ -56,6 +56,15 @@ static void test_divide_hex_to_binary(void)
     assert_text(output, "10001", "divisao hexadecimal");
 }
 
+static void test_convert_binary_to_decimal(void)
+{
+    char output[128];
+    ConversionRequest request = {BASE_BINARY, BASE_DECIMAL, "01010110"};
+
+    assert_status(run_conversion(&request, output, sizeof(output)), APP_OK, "conversao binaria");
+    assert_text(output, "86", "conversao binaria");
+}
+
 static void test_invalid_binary_value(void)
 {
     char output[128];
@@ -78,6 +87,7 @@ int main(void)
     test_subtract_decimal_to_hex();
     test_multiply_octal_to_decimal();
     test_divide_hex_to_binary();
+    test_convert_binary_to_decimal();
     test_invalid_binary_value();
     test_division_by_zero();
 
